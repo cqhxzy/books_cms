@@ -17,10 +17,6 @@ import java.util.List;
 @Configuration
 @EnableAspectJAutoProxy
 public class ConfigSupport extends WebMvcConfigurationSupport {
-
-
-
-
     //fastjson格式转换
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
